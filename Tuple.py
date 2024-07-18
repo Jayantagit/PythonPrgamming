@@ -1,0 +1,31 @@
+t=(10,20,30,40,70,90,100,40,120,140)
+print(t[2])
+print(t[-2])
+print("Count of num",t.count(40))
+print("=====================")
+tup1=(3,)
+print(type(tup1))
+print(t[2:4])
+print(t[::2])
+print(":index:",t.index(40))
+
+t2=(30,50,90)
+print(t2*2)
+
+t3=tup1+t2
+print("Concatenated Tuple",t3)
+print(len(t3))
+print("=====================")
+t7=(90,67,14,6)
+print(sorted(t7))
+print(max(t7))
+print("=====================")
+t11=(2,3,4,5)
+t22=(2,3,4,5)
+print(t11==t22)
+print("=====================")
+a,b,c=(10,20,30)
+print(c)
+vv=10,40,50
+print(vv)
+
